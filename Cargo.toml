@@ -1,0 +1,19 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# fluent = "*"
+# fluent-templates = "0.8.0"
+# i18n-embed = { version = "0.13.8", features = ["fluent-system"] }
+# i18n-embed-fl = "0.6.5"
+# once_cell = "1.17.1"
+# rust-embed = "6.4.2"
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+thiserror = "*"
+# unic-langid = { version = "*", features = ["macros"] }
+# validator = { version = "*", features = ["derive"] }
